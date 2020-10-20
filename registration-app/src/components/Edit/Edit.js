@@ -2,7 +2,6 @@ import axios from 'axios'
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-
   class Edit extends Component { 
     constructor (props) {
     super(props)
@@ -73,12 +72,9 @@ import { Link } from 'react-router-dom'
           <div className='container py-4'>
             <div className='row justify-content-center'>
               <div className='col-md-12'>
-
                <Link className='btn btn-primary btn-sm mb-3' to='/'>
                       Back to listing
                 </Link>
-
-
                 <div className='card'>
                   <div className='card-header'>Edit Item</div>
                   <div className='card-body'>
